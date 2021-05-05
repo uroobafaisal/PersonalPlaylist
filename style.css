@@ -1,0 +1,126 @@
+body {
+    font: normal 1.1em/1.5 Helvetica, sans-serif;
+    background-color: #282C35;
+    color: whitesmoke;
+}
+
+.nav {
+    border: 2px;
+    height: 110px;
+    /* width: 100%; */
+    margin-top: -9px;
+    margin-left: -9px;
+    margin-right: -8px;
+    background-color: white;
+}
+
+.main-wrapper {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.logo {
+    padding-top: 5px;
+    margin-left: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.para {
+    margin-top: -90px;
+    margin-left: 170px;
+    color: #282C35;
+    font: normal 1.9em/2 Helvetica, sans-serif;
+}
+
+.name-link {
+    float: right;
+    display: block;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+input[type=text] {
+    width: 40%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+input[type=text]:focus {
+    border-color: #cb4154;
+    box-shadow: 0 0 8px 0 #cb4154;
+}
+
+.add-btn {
+    height: 40px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #cb4154;
+    color: whitesmoke;
+    border: none;
+}
+
+.div-collection {
+    /* display: flex; */
+    margin-left: 55.4%;
+    margin-top: -24.5%;
+    border: 1px solid grey;
+    height: 300px;
+    overflow-y: auto;
+    width: 32.8%;
+    box-shadow: 0px 2px 10px grey
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55%;
+    height: 55%;
+}
+
+.addPlaylist {
+    position: absolute;
+    left: 55%;
+    width: 30%;
+    border: solid 1px grey;
+    box-shadow: 0px -2px 10px grey
+}
+
+.addPlaylistImg {
+    margin-left: 30px;
+    margin-top: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.addPlaylistPara {
+    /* position: absolute; */
+    margin-top: -45px;
+    margin-left: 85px;
+}
+
+.collection-item {
+    border-bottom: 1px solid grey;
+    margin-left: -10%;
+    margin-top: 15px;
+    padding-left: 35px;
+}
+
+.delete-item {
+    float: right;
+    margin-right: 25px;
+}

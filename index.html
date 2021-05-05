@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal PlayList</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
+    <link rel='stylesheet' href="style.css">
+    <link rel="stylesheet" href="all.css">
+
+</head>
+
+<body>
+
+    <div class="nav">
+        <img class="logo" src="logo.png">
+        <div class="name-link">
+            <input class="song" id="playList" type="text" placeholder="Enter Name">
+            <input class="link" id="input-link" type="text" placeholder="Enter Link">
+            <button class="add-btn">Add Song</button>
+        </div>
+        <div class="para"><b>PLAYLIST</b></div>
+    </div>
+    <br>
+    <br>
+    <div class="addPlaylist">
+        <img class="addPlaylistImg" src="addplaylist.png">
+        <p class="addPlaylistPara">ADD TO PLAYLIST</p>
+    </div>
+    <div class="main-wrapper">
+        <div class="video">
+            <iframe id="input-video" width="640" height="360" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="div-collection">
+            <ul class="collection" style="list-style-type: none;"></ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
