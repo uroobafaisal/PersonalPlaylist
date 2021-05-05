@@ -71,8 +71,9 @@ function getSongs() {
         //Clear Input
         playList = '';
     });
-
-    document.getElementById('input-video').src = localStorage.getItem('last_clicked');
+    if (localStorage.getItem('last_clicked') !== null) {
+        document.getElementById('input-video').src = localStorage.getItem('last_clicked');
+    }
     console.log(playLists)
 }
 
